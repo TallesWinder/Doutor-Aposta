@@ -181,6 +181,13 @@ button{
     width: 209px;
     height: 44px;
     margin-bottom: 20px;
+    
+}
+
+.tempo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 35px;
 }
 
 /*MEDIA QUERY*/
@@ -245,6 +252,7 @@ button{
     }
 
     .tempo{
+        font-size: 20px;
        margin-top: 10px;
        margin-bottom: 10px;
     }
