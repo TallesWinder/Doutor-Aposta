@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bungee', cursive;
+}
+
+body {
+    background: url(/img/dollar-g5dd4c0be0_1920.jpg);
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    opacity: 0.95;
+}
+
+.container {
+    width: 80%;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    background-color: #DDE2C5;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.logo {
+    width: 150px;
+    margin: 30px 0;
+    border-radius: 50%;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    width: 100%;
+    text-align: right;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.nav-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+}
+
+.nav-link:hover {
+    color: #533d24;
+}
+
+.nav-link2{
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+}
+
+.nav-link2:hover{
+    color: #556B2F;
+}
+
+.menu-icon {
+    width: 25px;
+    margin-right: 15px;
+    display: none;
+}
+
+.containerCentral {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.containerCentral > div {
+    text-align: center;
+}
+
+.conteudoPrincipal {
+    position: relative;
+    background: #533d24;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    color: #b7b7b7;
+    font-weight: 100;
+}
+
+.conteudoPrincipal p {
+    font-size: 16px;
+    color: #b7b7b7;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+.exe{
+    font-size: 20px;
+    color: #000;
+}
+
+span{
+    color: #000;
+}
+
+.exemplos{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.milhar{
+    margin-bottom: 30px;
+}
+
+.animais{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.teste{
+    margin-bottom: 20px;
+}
+
+.numeroSorteado{
+    margin-top: -10px;
+}
+
+.nomeAnimal{
+    margin-top: -15px;
+}
+
+.animaisImagens{
+    width: 180px;
+    height: 150px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+
+.comoJogar{
+    background: #533d24;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 22%;
+    text-align: center;
+    margin-right: 5px;
+   padding-bottom: 10px;
+}
+
+.tema{
+    font-size: 20px;
+    color: #000;
+}
+
+.tema2{
+    font-size: 20px;
+    line-height: 20PX;
+    margin-top: 17px;
+    margin-bottom: 16px;
+    color: #000;
+}
+
+.paragrafo{
+    font-size: 10px;
+    line-height: 15px;
+    color: #b7b7b7;
+}
+
+.parceiros{
+    font-size: 25px;
+    color: #000;
+}
+
+footer{
+    background: #533d24;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links img {
+    height: 30px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+@media (max-width: 750px){
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+        overflow: auto;
+    }
+
+    .containerCentral {
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+
+    .column-2 {
+        margin: 30px;
+    }
+
+    .color-box {
+        transform: translateX(70px);
+    }
+
+    #menu-list {
+        position: relative;
+        top: 60px;
+        left: 60px;
+        overflow: hidden;
+        transition: all 0.7s 0s ease-in-out;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+
+    .nav-li {
+        display: block;
+        margin-top: -10px;
+        line-height: 35px;
+    }
+
+    h1{
+        line-height: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h2{
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+
+    .container2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+     }
+
+     .comoJogar{
+        background: #533d24;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        width: 45%;
+        text-align: center;
+        margin-right: 5px;
+        line-height: 20px;
+    }
+
+    .tema{
+        line-height: 20px;
+        margin-top: 17px;
+        margin-bottom: 16px;
+    }
+
+    .parceiros{
+        font-size: 15px;
+    }
+}
