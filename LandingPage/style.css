@@ -108,6 +108,7 @@ footer {
     line-height: 10px;
 }
 
+/*O @media conhecido como media-query seria uma condição ao qual você pode especificar um equipamento, tamanho, resolução, formato, rotação, etc.*/
 @media (max-width: 750px) {
 
     .container {
@@ -164,7 +165,7 @@ footer {
     }
 }
 
-
+/*A regra @keyframes vai definir as etapas da sua animação. Com ela você vai informar o início e o final do valor da propriedade CSS que você deseja animar. Vale lembrar a animação acontece na transição de um valor para o outro.*/
 @keyframes moverCelular {
     from {
         transform: translate(-5%, -5%) rotate(-10deg);
