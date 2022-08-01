@@ -12,13 +12,11 @@ body {
     align-items: center;
     height: 100%;
     opacity: 0.95;
-    
 }
 
 .container {
     width: 80%;
-    height: 95%;
-    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     background-color: #DDE2C5;
     display: flex;
@@ -39,7 +37,7 @@ body {
     border-radius: 50%;
 }
 
-nav{
+nav {
     width: 100%;
     text-align: right;
 }
@@ -62,10 +60,8 @@ li {
 }
 
 .nav-link1 {
-    cursor: pointer;
     text-decoration: none;
     color: #000;
-    font-size: 17px;
 }
 
 .nav-link1:hover {
@@ -78,37 +74,68 @@ li {
     margin-bottom: 10px;
 }
 
-.row > div {
+.row>div {
     text-align: center;
 }
 
 .column-1 {
     /*margin-left: 50px;*/
     position: relative;
-    background: #533d24;
+    background: #556B2F;
     border-radius: 20px;
-    padding: 20px;
+    padding: 5px;
+    width: 100%;
 }
 
-.row > div > h1 {
-    margin-bottom: 10px;
-    
+.talles {
+    display: flex;
+    justify-content: space-around;
 }
 
-/* h3 {
-    font-size: 25px;
-    font-weight: 100;
-} */
-
-.parceiros{
-    font-size: 25px;
+.oi {
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    width: 261px;
 }
 
-.column-1 p {
-    font-size: 16px;
+#btn-submit {
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+input {
+    padding: 5px;
+}
+
+.liAceito {
+    margin-top: 20px;
+}
+
+.termosUso {
     color: #b7b7b7;
-    font-weight: 100;
-    line-height: 20px;
+    text-decoration: none;
+}
+
+#btn-submit {
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 30px;
 }
 
 .menu-icon {
@@ -128,17 +155,36 @@ li {
     margin: 20px;
     cursor: pointer;
     border-radius: 20px;
+    vertical-align: middle;
 }
 
-footer{
-    background: #533d24;
+.parceiros{
+    font-size: 25px;
+    color: #000;
+}
+
+footer {
+    background: #556B2F;
     border-radius: 20px;
     margin-top: 10px;
-    line-height: 10px;
+}
+
+.parabens{
+    width: 70%;
+    border-radius: 20px;
+}
+
+button{
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    width: 209px;
+    height: 44px;
+    margin-bottom: 20px;
 }
 
 /*MEDIA QUERY*/
-@media (max-width: 750px){
+@media (max-width: 750px) {
 
     .container {
         width: 100vw;
@@ -180,12 +226,27 @@ footer{
         line-height: 35px;
     }
 
-    h1{
+    h1 {
         line-height: 30px;
+    }
+
+    .talles {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .parceiros{
         font-size: 15px;
     }
+
+    footer>div>h3 {
+        font-size: 15px;
+    }
+
+    .tempo{
+       margin-top: 10px;
+       margin-bottom: 10px;
+    }
+
 
 }
