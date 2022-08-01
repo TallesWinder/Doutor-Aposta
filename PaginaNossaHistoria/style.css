@@ -159,7 +159,7 @@ footer{
     #menu-list {
         position: relative;
         top: 60px;
-        left: 60px;
+        left: 50px;
         overflow: hidden;
         transition: all 0.7s 0s ease-in-out;
     }
